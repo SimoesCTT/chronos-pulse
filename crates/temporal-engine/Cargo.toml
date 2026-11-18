@@ -1,0 +1,11 @@
+[package]
+name = "temporal-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio = { workspace = true }
+temporal-core = { path = "../temporal-core" }
+temporal-collector = { path = "../temporal-collector" }

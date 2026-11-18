@@ -1,0 +1,9 @@
+[package]
+name = "temporal-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+# Pure math primitives, zero external C dependencies

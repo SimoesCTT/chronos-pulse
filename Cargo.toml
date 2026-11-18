@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/temporal-core",
+    "crates/temporal-collector",
+    "crates/temporal-engine",
+    "crates/temporal-tui",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Americo Simoes <amexsimoes@gmail.com>"]
+license = "MIT"
+
+[workspace.dependencies]
+tokio = { version = "1.40", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+ratatui = "0.29"
+crossterm = "0.28"

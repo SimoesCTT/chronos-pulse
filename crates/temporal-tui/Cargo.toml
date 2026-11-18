@@ -1,0 +1,21 @@
+[package]
+name = "temporal-tui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "chronos-pulse"
+path = "src/main.rs"
+
+[[bin]]
+name = "chronos-analyze"
+path = "src/bin/analyze.rs"
+
+[dependencies]
+tokio = { workspace = true }
+ratatui = { workspace = true }
+crossterm = { workspace = true }
+temporal-core = { path = "../temporal-core" }
+temporal-engine = { path = "../temporal-engine" }

@@ -1,0 +1,1 @@
+/home/americosimoes/Desktop/chronos-pulse/target/release/chronos-pulse: /home/americosimoes/Desktop/chronos-pulse/crates/temporal-collector/src/lib.rs /home/americosimoes/Desktop/chronos-pulse/crates/temporal-core/src/lib.rs /home/americosimoes/Desktop/chronos-pulse/crates/temporal-engine/src/lib.rs /home/americosimoes/Desktop/chronos-pulse/crates/temporal-tui/src/main.rs
